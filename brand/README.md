@@ -4,7 +4,8 @@ Shared brand assets for Oscille projects and communications.
 
 ## Layout
 
-- `icon/` holds the logo and icon files, with `dark/` and `light/` variants in SVG and PNG.
+- `icon/` holds the standalone mark, with `dark/` and `light/` variants in SVG and PNG.
+- `logotype/` holds the mark with the Oscille wordmark, in the same variants.
 - `colors.md` holds the palette and usage notes.
 
 ## Guidelines

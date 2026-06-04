@@ -1,4 +1,4 @@
-# <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oscille/.github/main/brand/icon/light/icon-light.svg"><img height="48" alt="Oscille logo" src="https://raw.githubusercontent.com/oscille/.github/main/brand/icon/dark/icon-dark.svg"></picture> Oscille
+# <picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/oscille/.github/main/brand/logotype/light/logotype-light.svg"><img height="40" alt="Oscille" src="https://raw.githubusercontent.com/oscille/.github/main/brand/logotype/dark/logotype-dark.svg"></picture>
 
 Oscille builds tools and infrastructure for engineers, researchers and teams. Our mission is to create software that solves hard problems simply, giving teams the building blocks to work faster without trading away control.
 
