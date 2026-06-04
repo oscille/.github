@@ -12,6 +12,10 @@ Read these before writing code or prose, and follow them. They live in [`convent
 
 Where a convention does not cover a case, follow the patterns already in the repo you are working in.
 
+@conventions/CODE.md
+@conventions/COMMENT.md
+@conventions/WRITING.md
+
 ## Repository rules
 
 - **Default branch** is `main`.
