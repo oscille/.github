@@ -1,0 +1,42 @@
+# ─────────────────────────────────────────────────────────────────────────
+# Whitelist .gitignore
+#
+# This folder doubles as (a) the local workspace where every Oscille repo is
+# cloned and (b) the checkout of the `oscille/.github` org-meta repo.
+#
+# Strategy: ignore EVERYTHING at the root by default, then re-include only the
+# org-meta files this repo is meant to track. Because `/*` matches only
+# top-level entries (it does not cross `/`), any repo you clone in here is
+# automatically ignored, with no per-repo maintenance and no risk of git trying
+# to embed a nested clone as a stray gitlink.
+#
+# To track a new top-level file/dir, add a `!` negation below.
+# ─────────────────────────────────────────────────────────────────────────
+
+/*
+
+# Repo + workspace docs
+!/.gitignore
+!/README.md
+!/CLAUDE.md
+!/LICENSE
+!/conventions/
+
+# GitHub org-wide defaults
+!/profile/
+!/.github/
+!/CODE_OF_CONDUCT.md
+!/CONTRIBUTING.md
+!/SECURITY.md
+!/SUPPORT.md
+
+# Brand / media kit
+!/brand/
+
+# Cloned repositories live here. Keep the folder, ignore the clones inside it.
+!/repositories/
+/repositories/*
+!/repositories/.gitkeep
+
+# Local-only notes (kept out of the published repo)
+.DS_Store
