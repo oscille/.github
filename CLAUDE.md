@@ -16,6 +16,8 @@ Where a convention does not cover a case, follow the patterns already in the rep
 @conventions/COMMENT.md
 @conventions/WRITING.md
 
+In case you are in a repository, the conventions are not automatically inherited. So please read them in the parent `repositories/` folder, and follow them in your work.
+
 ## Repository rules
 
 - **Default branch** is `main`.
