@@ -2,6 +2,10 @@
 
 Org-wide guidance for every Oscille repository. Clone repositories into the `repositories/` folder, where this guidance is inherited from the parent. A repo may add its own `CLAUDE.md` for anything specific to it.
 
+## What Oscille is
+
+Oscille builds the seed, a business that runs itself. The founding document is [CONSTITUTION.md](CONSTITUTION.md). It sets what the company is for, what it must never do, who decides what, and how those rules change. Everything else answers to it.
+
 ## Conventions
 
 Read these before writing code or prose, and follow them. They live in [`conventions/`](conventions/).
