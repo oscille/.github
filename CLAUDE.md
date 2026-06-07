@@ -28,5 +28,6 @@ In case you are in a repository, the conventions are not automatically inherited
 - **Branches** are named `feature/<desc>`, `fix/<desc>`, or `chore/<desc>`.
 - **Commits** follow [Conventional Commits](https://www.conventionalcommits.org/), with a type of `feat`, `fix`, `docs`, `chore`, `refactor`, or `test`.
 - **Pull requests** stay small and focused, pass CI before review, and squash-merge.
+- **Git that touches a shared or human-owned repository** (commit, push, merge, branch or tag changes) runs only with explicit human approval each time; never on your own initiative.
 - **Every repository** ships a `README`, a `LICENSE`, and CI that runs lint, typecheck, and tests.
 - **Authorship** is human; never add an agent as co-author on a commit or pull request.
