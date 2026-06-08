@@ -4,7 +4,7 @@ This governs the prose we write: docs, READMEs, commit messages, issues, pull re
 
 ## Write for a junior engineer
 
-Aim every explanation at a capable engineer who is new to the domain. Assume intelligence, not context. Do not lean on knowledge they would not have yet. Define a term the first time it appears, or avoid it. Writing for the newcomer also serves the expert, who just reads faster; writing for the expert loses the newcomer entirely.
+Aim every explanation at a capable engineer who is new to the domain. Assume intelligence, not context. Do not lean on knowledge they would not have yet, nor on context they cannot reach: a planning phase or step that lived only in your session, a ticket or internal doc that needs access they may not have. The reader of a commit or doc was not there, so either a reference names a durable, self-explaining source (a standard, a product and version) or it leaves the text. Define a term the first time it appears, or avoid it. Writing for the newcomer also serves the expert, who just reads faster; writing for the expert loses the newcomer entirely.
 
 ## Simplicity is the proof of understanding
 
