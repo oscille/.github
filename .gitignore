@@ -41,3 +41,4 @@
 
 # Local-only notes (kept out of the published repo)
 .DS_Store
+!/EVALUATOR.md
