@@ -4,7 +4,7 @@ Org-wide guidance for every Oscille repository. Clone repositories into the `rep
 
 ## What Oscille is
 
-Oscille builds the seed, a business that runs itself. The founding document is [CONSTITUTION.md](CONSTITUTION.md). It sets what the company is for, what it must never do, who decides what, and how those rules change. Everything else answers to it.
+Oscille builds the seed, a business that runs itself. The founding document is [CONSTITUTION.md](CONSTITUTION.md). It sets what the company is for, what it must never do, who decides what, and how those rules change. Everything else answers to it. The human-held method every landed change is scored against is [EVALUATOR.md](EVALUATOR.md).
 
 ## Conventions
 
@@ -13,6 +13,7 @@ Read these before writing code or prose, and follow them. They live in [`convent
 - [CODE.md](conventions/CODE.md) covers how we design APIs and systems.
 - [COMMENT.md](conventions/COMMENT.md) covers when and how we comment code.
 - [WRITING.md](conventions/WRITING.md) covers how we write prose, docs, and messages.
+- [PROPOSAL.md](conventions/PROPOSAL.md) covers the four-part shape every operating change is proposed in.
 
 Where a convention does not cover a case, follow the patterns already in the repo you are working in.
 
