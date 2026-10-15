@@ -13,14 +13,18 @@ Thanks for contributing. These guidelines apply across Oscille repositories unle
 - Follow the conventions in [`conventions/`](conventions/).
 - Keep pull requests small and focused.
 - Write commit messages as [Conventional Commits](https://www.conventionalcommits.org/).
-- Make sure lint, typecheck, and tests pass.
+- Make sure lint, typecheck, and tests pass. Checks run on our own compute node, never in GitHub Actions; give the run ids in the pull request.
 - Update the docs when behavior changes.
 
 ## Pull requests
 
 - Fill out the pull request template.
-- Make sure CI is green before requesting review.
+- Make sure the checks have passed on the compute node before requesting review.
 - Pull requests squash-merge into `main`.
+
+## Releases
+
+Releases are tags signed with the organization's release key, and only maintainers sign them. Deployments accept only tags that verify against that key.
 
 ## Reporting bugs and requesting features
 
